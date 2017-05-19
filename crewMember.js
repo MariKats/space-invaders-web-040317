@@ -1,8 +1,8 @@
 class CrewMember {
-  constructor(position, currentShip) {
+  constructor(position, currentShip = 'Looking for a Rig') {
     this.position = position
     this.name = name
-    this.currentShip = "Looking for a Rig"
+    this.currentShip = currentShip
   }
 
   engageWarpDrive() {
